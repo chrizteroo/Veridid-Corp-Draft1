@@ -1,0 +1,186 @@
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-size: 40px; /* Adjust the base font size */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px; /* Add spacing between links */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+nav a {
+  padding: 0.5rem 1rem; /* Increase padding for better spacing */
+  font-size: 2rem; /* Increase font size for better readability */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* Add styles for the footer icons */
+.footer-icon {
+  width: 44px; /* Adjust the width as needed */
+  height: 44px; /* Adjust the height as needed */
+}
+
+/* Services Section Styles */
+.service-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.service-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 300px;
+  text-align: center;
+}
+
+.service-item h3 {
+  margin-top: 0;
+}
+
+/* Utility Classes */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+/* ImageGallery styles */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.tab-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .tab-content {
+  opacity: 1;
+}
+/* Add more styles as needed */
+
+
+
+.hero-banner {
+  background-color: #007bff; /* Blue background */
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-cta {
+  background-color: #ffffff;
+  color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-cta:hover {
+  background-color: #f8f9fa;
+}
+/* Services styles */
+.service-grid {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+}
+
+.gallery-img {
+  border-radius: 50%; /* Makes the image circular */
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+.home-page {
+  padding: 10px; /* Add padding around the content */
+}
+
+.logo-container {
+  text-align: center; /* Center the logo */
+  margin-bottom: 20px; /* Add space below the logo */
+}
+
+.logo {
+  width: 380px; /* Adjust the width of the logo */
+  height: auto; /* Maintain the aspect ratio */
+}
